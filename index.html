@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+		<title>What's my IP</title>
+	</head>
+	<body>
+		<div class="container my-5">
+			<h1 class="mb-5">What's my IP</h1>
+			<div id="main">
+				<p>Your IP address is</p>
+				<h2 class="mb-5"><i class="fas fa-globe"></i> <span id="ip"></span></h2>
+				<p><span class="badge bg-primary">Hostname</span></p>
+				<p class="mb-5"><i class="fas fa-ethernet"></i> <span id="hostname"></span></p>
+				<p><span class="badge bg-primary">Internet Service Provider</span></p>
+				<p class="mb-5"><i class="fas fa-server"></i> <span id="isp"></span></p>
+				<p><span class="badge bg-primary">City</span></p>
+				<p class="mb-5"><i class="fas fa-city"></i> <span id="city"></span></p>
+				<p><span class="badge bg-primary">Region</span></p>
+				<p class="mb-5"><i class="fas fa-map"></i> <span id="region"></span></p>
+				<p><span class="badge bg-primary">Country Code</span></p>
+				<p class="mb-5"><i class="fas fa-map-marker-alt"></i> <span id="country"></span></p>
+			</div>
+			<div id="error"></div>
+			<div class="mt-5">
+				<small>Developed by <a href="https://robertd.co.uk">Robert Dixon</a>.</small>
+			</div>
+		</div>
+		<script src="js/script.js"></script>
+	</body>
+</html>
