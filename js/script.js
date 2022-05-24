@@ -26,10 +26,10 @@ request.onreadystatechange = function() {
 		}
 		else {
 			main.classList.value = 'd-none';
-			error.classList.value = 'alert alert-danger';
+			error.classList.value = 'alert alert-danger mb-5';
 			error.innerHTML = 'Something went wrong.';
 		}
 	}
 };
-request.open('GET', 'https://ipinfo.io/json');
+request.open('GET', 'https://ipinfo.io/jsons');
 request.send();
