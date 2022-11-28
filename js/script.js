@@ -31,5 +31,5 @@ request.onreadystatechange = function() {
 		}
 	}
 };
-request.open('GET', 'https://ipinfo.io/jsons');
+request.open('GET', 'https://ipinfo.io/json');
 request.send();
